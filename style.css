@@ -1,0 +1,159 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.headfer_menu {
+    background: #ffffff;
+}
+
+.logo {
+    width: 100px;
+}
+
+.baner_section {}
+
+.baner_bgn {
+    background: #8490ff;
+    border: 1px solid #8490ff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.counter {
+    background: #8490ff;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.prising_section {
+    background: #f9f9ff;
+}
+
+.prising_text {
+    background: white;
+    margin: 20px;
+}
+
+.prising_text h1 {
+    background: #f9f9ff;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-weight: 300;
+}
+
+.prising_text h5 {}
+
+.prising_text h6 {
+    margin-bottom: 34px;
+}
+
+.prising_text p {
+    font-size: 20px;
+    color: #767676;
+}
+
+.prising_text a {
+    display: inline-block;
+    margin-top: 23px;
+    border: 1px solid #8490ff;
+    color: #8490ff;
+}
+
+
+.prising_text a:hover {
+    background: #8490ff;
+    border: 1px solid #8490ff;
+}
+
+.team_bio {
+    position: relative;
+    padding: 43px 0px !important;
+}
+
+.team_bio img {
+    position: absolute;
+    width: 114px;
+    top: -83px;
+    left: 0;
+}
+
+.team_section {
+    padding-top: 150px;
+}
+
+.team_bio {}
+
+.team_bio h4 {
+    margin-bottom: -5px;
+    margin-top: 20px;
+}
+
+.team_bio span {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.team_bio p {}
+
+.teac_btn {
+    text-decoration: none;
+    color: black;
+    background: white;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px !important;
+    margin-bottom: 0 !important;
+}
+
+.contact_section {
+    background: #f9f9ff;
+}
+
+.contact_section .card {
+    border: none;
+    padding: 50px;
+    margin: 50px;
+}
+
+.contact_section .card textarea {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background: #04091e;
+}
+
+/* responsive */
+
+@media (max-width:320px) {
+    
+    .team_bio {
+        margin-top: 78px;
+    }
+
+    .contact_section .card {
+        width: 93%;
+        margin-left: 9px;
+    }
+
+    .prising_text p {
+        font-size: 13px;
+        color: #767676;
+    }
+
+    .prising_text h5 {
+        margin-top: 20px;
+    }
+
+}
